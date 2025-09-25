@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo y tipografía general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+ box-shadow: 2px 4px 12px rgba(0,0,0,0.15);
+
+}
+/* Títulos */
+h1, h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-align: center;
+}
+/* Formularios */
+  form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: auto; /* lo centra */
+}
+
+
+label {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+/* Estilo normal para inputs y selects */
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc; /* más fino */
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease; /* suaviza cambios */
+}
+
+/* Cuando el usuario hace focus */
+input:focus, select:focus {
+  outline: none; /* quita el borde azul feo por defecto */
+  border-color: #3498db; /* cambia de color */
+  box-shadow: 0 0 6px rgba(52, 152, 219, 0.5); /* brillo azul */
+}
+
+/* Estilo del botón por separado */
+button {
+  padding: 12px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+

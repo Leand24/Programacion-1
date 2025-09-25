@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+    <section id ="personalForm">
+        <h1>ingreso de los datos del personal actual y administrativo</h1>
+        <input type="text" id="personalForm_inCedula" placeholder="ingresar la cédula"></input>
+        <input type="text" id="personalForm_inIngresoActual" placeholder="ingrese el ingreso actual"></input>
+        <input type="number" id="personalForm_inTipo" placeholder="1= obrero, 2 = personal administrativo"></input>
+        <button id="personalForm_btProcesar">calcular</button>
+        <button id="personalForm_btEliminar">Eliminar</button>
+
+    </section>
+    <section id="mainForm">
+        <h3>resultado</h3>
+        <div id="mainForm_salida"></div>
+    </section>
+    <script type="module">
+        import Cl_principal from "./dist/Cl_principal.js";
+        new Cl_principal();
+    </script>
+    
+</body>
+</html>
