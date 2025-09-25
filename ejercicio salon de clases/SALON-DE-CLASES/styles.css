@@ -1,0 +1,40 @@
+body { font-family: Arial, sans-serif; 
+    margin: 20px; 
+    background:#f8f8f8; 
+    color:#222; 
+}
+section 
+{ background:#fff; 
+    padding:12px 16px; 
+    border-radius:8px; 
+    margin-bottom:12px; 
+    box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+input, select, button 
+{
+     display:block; 
+     width:100%;
+      max-width:320px; 
+      padding:8px; 
+      margin:6px 0; 
+      border-radius:6px; 
+      border:1px solid #ccc; 
+      font-size:14px; }
+button { 
+    background:#2d89ef; 
+    color:#fff; 
+    border:none; 
+    cursor:pointer; }
+button:hover { 
+    background:#1e6fd6; }
+.estudiante-card { 
+    padding:8px; 
+    margin:6px 0; 
+    border-left:4px solid #2d89ef;
+     background:#eef6ff;
+      border-radius:4px; }
+.resumen { 
+    margin-top:12px; 
+    padding:8px; 
+    background:#fff8dc; 
+    border-left:4px solid #ffd54f; 
+    border-radius:4px;}

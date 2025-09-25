@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        th, td {
+          padding: 15px;
+          text-align: left;
+        } </style>
+</head>
+<body>
+    <section id="salonDeClasesForm">
+        <h1>DATOS DE LOS ESTUDIANTES</h1>
+        <input type="text" id="salonDeClasesForm_inNombre" placeholder="Nombre"></input>
+        <input type="text" id="salonDeClasesForm_inSexo" placeholder="Sexo"></input>
+        <input type="number" id="salonDeClasesForm_inEdad" placeholder="Edad"></input>
+        <button id="salonDeClasesForm_btnAgregar">Agregar Estudiante</button>
+    </section>
+    <section id="mainForm">
+        <h4>DATOS DE SALIDA</h4>
+        <div id="mainForm_salida"></div>
+    </section>
+    <script type="module" >
+    import principal from "./dist/principal.js";
+    new principal();
+    </script>
+</body>
+</html>
